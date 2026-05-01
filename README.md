@@ -9,11 +9,16 @@ Professional rollup-config library.
 
 ## Installation
 ```bash
-# Install
+npm install rollup-config
 ```
 
 ## Usage
-```bash
-# Use it
+```javascript
+const lib = require('rollup-config');
+console.log(lib);
 ```
 
+## Testing
+```bash
+npm test
+```

@@ -1,1 +1,16 @@
-{"name":"rollup-config","version":"1.0.0","description":"Professional rollup-config library"}
+{
+  "name": "rollup-config",
+  "version": "1.0.0",
+  "description": "Professional rollup-config library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": ["rollup-config", "library", "javascript"],
+  "author": "leeydev",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
